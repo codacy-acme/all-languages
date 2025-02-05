@@ -1,0 +1,8 @@
+folder:
+  extension: ".bas"
+  naming: "hyphen"
+
+container:
+  image: "rzuckerm/ti-basic"
+  tag: "2025.02.03-7"
+  cmd: "ti-basic {{ source.name }}{{ source.extension }}"
