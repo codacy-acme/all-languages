@@ -7,6 +7,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	// unused import
 )
 
 // Global variables - bad practice
