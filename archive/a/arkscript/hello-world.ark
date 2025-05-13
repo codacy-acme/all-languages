@@ -1,1 +1,12 @@
-(print "Hello, World!")
+# Poorly formatted comment with trailing spaces    
+(let x 42)  # Magic number and unused variable
+(let y "unused")  # Another unused variable
+
+# Inconsistent spacing around parentheses and poor variable naming
+(let msg"Hello, World!")
+(let a1   123)    # Bad variable name with inconsistent spacing
+
+# Unnecessary complexity
+(if (= a1 123)
+    (print msg)
+    (print "never reached"))
